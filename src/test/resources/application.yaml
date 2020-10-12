@@ -1,0 +1,44 @@
+spring:
+  profiles:
+    active: rest
+
+  application:
+    name: Heavy Metal Bake SaleL
+  jackson:
+    default-property-inclusion: non_null
+sale:
+  items:
+    Brownie:
+      name: Brownie
+      code: V
+      price: 65c
+      amount: 48
+    Muffin:
+      name: Muffin
+      code: A
+      price: $1.00
+      amount: 36
+    Cake-Pop:
+      name: Cake Pop
+      code: L
+      price: $1.35
+      amount: 24
+    Water:
+      name: Water
+      code: E
+      price: $1.50
+      amount: 30
+    Cola:
+      name: Cola
+      code: R
+      price: $1.50
+      amount: 30
+    Caramel:
+      name: Caramel
+      code: I
+      price: $1.50
+      amount: 30
+
+logging:
+  file:
+    path: /logs/
